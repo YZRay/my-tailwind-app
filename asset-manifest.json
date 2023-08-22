@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-tailwind-app/static/css/main.7e76ce4d.css",
+    "main.js": "/my-tailwind-app/static/js/main.71151dd2.js",
+    "static/js/787.602e87c6.chunk.js": "/my-tailwind-app/static/js/787.602e87c6.chunk.js",
+    "index.html": "/my-tailwind-app/index.html",
+    "main.7e76ce4d.css.map": "/my-tailwind-app/static/css/main.7e76ce4d.css.map",
+    "main.71151dd2.js.map": "/my-tailwind-app/static/js/main.71151dd2.js.map",
+    "787.602e87c6.chunk.js.map": "/my-tailwind-app/static/js/787.602e87c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e76ce4d.css",
+    "static/js/main.71151dd2.js"
+  ]
+}

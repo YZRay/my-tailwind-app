@@ -19,7 +19,7 @@ const Pagination = (props) => {
     if (selectedPage <= halfMaxDisplayedPages) {
       displayedPageNumbers = pageNumbers.slice(0, maxDisplayedPages);
     } else if (selectedPage >= totalPage - halfMaxDisplayedPages) {
-      // 當選取頁碼到總顯示頁碼一半時生成後面的頁碼
+      // 當選取頁碼到最大顯示頁碼一半時生成後面的頁碼
       displayedPageNumbers = pageNumbers.slice(
         totalPage - maxDisplayedPages,
         totalPage
@@ -62,7 +62,7 @@ const Pagination = (props) => {
   const pageList = displayedPageNumbers.map((pageNumber) => (
     <li
       key={pageNumber}
-      className={`cursor-pointer w-7 h-7 border border-solid border-slate-300 text-center ${
+      className={` cursor-pointer w-7 h-7 border border-solid border-slate-300 text-center hover:bg-slate-500 hover:text-white ${
         selectedPage === pageNumber ? "bg-slate-500 text-white" : ""
       }`}
       onClick={() => handlePageClick(pageNumber)}
@@ -75,7 +75,7 @@ const Pagination = (props) => {
     <div className="flex  w-full place-content-around items-start p-16">
       <ul className="list-none p-0 m-0 flex">
         <li
-          className={`cursor-pointer w-auto h-7 border border-solid border-slate-300 text-center mr-8 px-2 ${
+          className={`cursor-pointer w-auto h-7 border border-solid border-slate-300 text-center mr-8 px-2 hover:bg-slate-500 hover:text-white ${
             isPrevDisabled ? "opacity-50 cursor-not-allowed" : ""
           }`}
           onClick={handlePrevPage}
@@ -84,7 +84,7 @@ const Pagination = (props) => {
         </li>
         {pageList}
         <li
-          className={`cursor-pointer w-auto h-7 border border-solid border-slate-300 text-center ml-8 px-2 ${
+          className={`cursor-pointer w-auto h-7 border border-solid border-slate-300 text-center ml-8 px-2 hover:bg-slate-500 hover:text-white ${
             isNextDisabled ? "opacity-50 cursor-not-allowed" : ""
           }`}
           onClick={handleNextPage}

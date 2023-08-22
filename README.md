@@ -1,4 +1,4 @@
-# 專案名稱
+# my-tailwind-app
 
 這個專案是使用 [Create React App](https://github.com/facebook/create-react-app) 開始的，旨在練習使用 Tailwind CSS 和 API 串接。
 

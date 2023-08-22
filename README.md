@@ -1,3 +1,15 @@
+# 專案名稱
+
+這個專案是使用 [Create React App](https://github.com/facebook/create-react-app) 開始的，旨在練習使用 Tailwind CSS 和 API 串接。
+
+## 關於專案
+
+這個專案是我用來練習和學習的實踐項目，主要聚焦於以下兩個方面：
+
+1. **Tailwind CSS 學習與應用**：我在這個專案中主要使用 Tailwind CSS 進行樣式的設計和排版。深入了解了 Tailwind CSS 的使用方式和特性。
+
+2. **API 串接與數據呈現**：我透過串接不同的公開 API（例如 Rick and Morty API）來獲取數據並呈現在頁面上。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
